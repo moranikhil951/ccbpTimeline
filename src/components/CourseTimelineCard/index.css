@@ -1,0 +1,91 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .flex-course-and-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .tag-list-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .para-con {
+    background-color: lightgray;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    padding: 4px;
+    height: 25px;
+    border-radius: 4px;
+  }
+
+  .duration {
+    font-size: 10px;
+    color: #171f46;
+    margin: 4px;
+  }
+
+  .clock-container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Write your CSS here */
+@media screen and (max-width: 768px) {
+  .flex-course-and-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .tag-list-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .para-con {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+    height: 8px;
+    border-radius: 2px;
+  }
+
+  .duration {
+    font-size: 5px;
+    color: #171f46;
+    width: 25px;
+    margin: 2px;
+  }
+
+  .clock-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 34px;
+  }
+  .description {
+    font-size: 9px;
+  }
+  .courseTitle {
+    font-size: 10px;
+  }
+  .tags {
+    font-size: 6px;
+    margin: 2px;
+  }
+  .icon {
+    font-size: 10px;
+    margin: 2px;
+  }
+}

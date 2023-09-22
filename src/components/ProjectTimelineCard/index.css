@@ -1,0 +1,84 @@
+/* Write your CSS here */
+
+@media screen and (min-width: 768px) {
+  .projectUrl {
+    height: 100%;
+    width: 100%;
+  }
+
+  .flex-con-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .con-details {
+    display: flex;
+    align-items: center;
+  }
+
+  .duaration {
+    font-size: 12px;
+    margin: 4px;
+  }
+  .button {
+    background-color: #0967d2;
+    border: 0px;
+    color: white;
+    border-radius: 4px;
+    padding: 4px;
+  }
+
+  .achor-element {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projectUrl {
+    height: 100px;
+    width: 100%;
+  }
+
+  .flex-con-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .con-details {
+    display: flex;
+    align-items: center;
+  }
+
+  .duaration {
+    font-size: 6px;
+    width: 15px;
+    margin: 2px;
+  }
+  .button {
+    background-color: #0967d2;
+    border: 0px;
+    color: white;
+    border-radius: 2px;
+  }
+
+  .achor-element {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    font-size: 8px;
+    text-align: center;
+  }
+  .description {
+    font-size: 9px;
+  }
+  .projectTitle {
+    font-size: 10px;
+  }
+  .icon {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.chrono-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .top-heading {
+    font-size: 10px;
+    color: #2b237c;
+  }
+  .bottom-heading {
+    font-size: 15px;
+    color: #2b237c;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .top-heading {
+    font-size: 15px;
+    color: #2b237c;
+  }
+  .bottom-heading {
+    font-size: 25px;
+    color: #2b237c;
+  }
+}
